@@ -1,0 +1,54 @@
+.bodddy{
+    background-image: url("enquiry bg.jpg");
+    background-size: cover;
+}
+.AddEnquiryForm {
+    max-width: 400px;
+    height: 760px;
+    margin: 0 auto;
+  }
+  
+  .AddEnquiryForm h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .AddEnquiryForm form {
+    background-color: #f9f9f9;
+    padding: 80px;
+    border-radius: 8px;
+  }
+  
+  .AddEnquiryForm label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .AddEnquiryForm input[type="text"],
+  .AddEnquiryForm input[type="email"],
+  .AddEnquiryForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .AddEnquiryForm textarea {
+    resize: vertical;
+  }
+  
+  .AddEnquiryForm button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .AddEnquiryForm button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
